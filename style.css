@@ -65,6 +65,7 @@ form { background: #f4f4f4;  }
     .wrapper { justify-content: center; }
     .subscribe_btn, .no_subscribe_btn, .recover_btn { width: 110px; }
     .sign_in { width: 110px; font-size: 16px; height: 38px; padding: 0px; }
+    .left_column,.right_column { max-width: 100%; flex-basis: auto; }
 }
 
 

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <title>Weekly Webdev Challenge #1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+    
+  <body>
+	<header>
+        <img src="img/logo.png" alt="Logo WWC" class="header_logo">
+	</header>
+	
+	<div class="wrapper">
+	   <div class="left_column">
+            <div class="form">
+		      <p>Register Form</p>
+		          <div class="form_outer">
+		              <form class="form_inner">
+                        <div class="form_box">
+                            <label for="register_username">
+                                <span>
+                                <img src="img/icons/username.png" alt="Username">
+                                </span>
+                            </label>
+                            
+                            <input id="register_username" type="password" placeholder="Username" required="required">      
+                        </div>
+           
+                        <div class="form_box">
+                            <label for="register_password">
+                                <span>
+                                <img src="img/icons/password.png" alt="Password">
+                                </span>
+                            </label>
+                            
+                            <input id="register_password" type="password" placeholder="Password" required="required">      
+                        </div>
+                        
+                        <div class="form_box">
+                            <label for="register_confirm">
+                                <span>
+                                <img src="img/icons/confirm.png" alt="Confirm Password">
+                                </span>
+                            </label>
+                            
+                            <input id="register_confirm" type="text" placeholder="Confirm Password" required="required">      
+                        </div>
+                                                  
+                        <div class="form_box">
+                            <label for="register_email">
+                                <span>
+                                <img src="img/icons/email.png" alt="Email">
+                                </span>
+                            </label>
+                            
+                            <input id="register_email" type="text" placeholder="Email" required="required">      
+                        </div>
+                          
+                        <div class="form_box location">
+                            <label for="register_location">
+                                <span>
+                                <img src="img/icons/location.png" alt="Location">
+                                </span>
+                            </label>
+                            
+                            <select id="register_location" required="required">  
+                                 <option value="">Your Location</option>
+                             <option value="krakow">Kraków</option>
+                             <option value="lodz">Łódź</option>
+                            </select>
+                            
+                        </div>
+                          
+                        <div class="form_box checkbox_box">
+                          <input class="form_checkbox" type="checkbox" id="register_checkbox" required="required"><label for="register_checkbox" required="required">I have read and accept the terms of use.</label>
+                        </div>
+                          
+                          <input class="green_btn" type="submit" value="Sign up">
+                          
+			         </form>
+			     </div>
+		  </div>
+      
+            <div class="form">
+		      <p>Send Email</p>
+		          <div class="form_outer">
+		              <form class="form_inner">
+                        <div class="form_box">
+                            <label for="send_username">
+                                <span>
+                                    <img src="img/icons/username.png" alt="Username">
+                                </span>
+                            </label>
+                            
+                            <input id="send_username" type="password" placeholder="Your Name" required="required">      
+                        </div>
+                                                  
+                        <div class="form_box">
+                            <label for="send_email">
+                                <span>
+                                    <img src="img/icons/email.png" alt="Email">
+                                </span>
+                            </label>
+                            
+                            <input id="send_email" type="text" placeholder="Your Email" required="required">      
+                        </div>
+                          
+                        <div class="form_box message">
+                            <textarea id="send_message" placeholder="Type your message" required="required"></textarea>      
+                        </div>
+                          
+                        <div class="form_box checkbox_box">
+                          <input class="form_checkbox" type="checkbox" id="send_checkbox">
+                                <label for="send_checkbox">Send a copy to my Email.</label>
+                        </div>
+                          
+                          <input class="green_btn" type="submit" value="Send Email">
+			         </form>
+			     </div>
+		      </div>    
+        
+        </div>
+
+        <div class="right_column">
+            <div class="form">
+		      <p>Sign In Form</p>
+		          <div class="form_outer">
+		              <form class="form_inner">
+                        <div class="form_box">
+                            <label for="signin_username">
+                                <span>
+                                    <img src="img/icons/username.png" alt="Username">
+                                </span>
+                            </label>
+                            
+                            <input id="signin_username" type="password" placeholder="Username" required="required">      
+                        </div>
+           
+                        <div class="form_box">
+                            <label for="signin_password">
+                                <span>
+                                    <img src="img/icons/password.png" alt="Password">
+                                </span>
+                            </label>
+                            
+                            <input id="signin_password" type="password" placeholder="Password" required="required">      
+                        </div>
+
+                        <div class="form_box checkbox_box">
+                            <div class="checkbox_flex">
+                                <input class="form_checkbox" type="checkbox" id="signin_checkbox">
+                                    <label for="signin_checkbox">Remember me.</label>
+                            </div>
+                            
+                            <div class="button">
+                                <input class="green_btn sign_in" type="submit" value="Sign in">
+                            </div>
+                        </div>
+ 
+			         </form>
+			     </div>
+		      </div>
+
+
+            <div class="form">
+		      <p>Recover Form</p>
+		          <div class="form_outer">
+		              <form class="form_inner">
+                        <div class="form_box">
+                            <label for="recover_username">
+                                <span>
+                                    <img src="img/icons/username.png" alt="Username">
+                                </span>
+                            </label>
+                            
+                            <input id="recover_username" type="password" placeholder="Enter your Email" required="required">      
+                        </div>
+           
+                        <div class="form_box">
+                            <label for="recover_phone">
+                                <span>
+                                    <img src="img/icons/phone.png" alt="Phone">
+                                </span>
+                            </label>
+                            
+                            <input id="recover_phone" type="text" placeholder="Enter your Phone number" required="required">      
+                        </div>
+
+                        <div class="form_box borderless">
+                            <div class="btn_flex flex_start">
+                                <input class="green_btn recover_btn" type="submit" value="Send">
+                            </div>
+                            <div class="btn_flex">
+                            <input class="done_btn recover_btn" type="submit" value="Done">
+                                </div>
+                        </div>
+			</form>
+			</div>
+		</div>
+
+            <div class="form">
+		      <p>Subscribe Form</p>
+		          <div class="form_outer">
+		              <form class="form_inner">
+                        <div class="form_box">
+                            <label for="subscribe_email">
+                                <span>
+                                <img src="img/icons/email.png" alt="Email">
+                                </span>
+                            </label>
+                            <input id="subscribe_email" type="text" placeholder="Enter your Email" required="required">      
+                        </div>
+
+                       <div class="form_box borderless">
+                            <div class="btn_flex flex_start">
+                                <input class="green_btn subscribe_btn" type="submit" value="Subscribe">
+                                </div>
+                            <div class="btn_flex">
+                                <input class="green_btn no_subscribe_btn" type="submit" value="No, Thanks">
+                            </div>
+                        </div>
+			         </form>
+			     </div>
+		      </div>
+            
+            <footer>
+                <img src="img/footer_logo.png" alt="Logo" class="footer_logo">
+            <footer>
+            
+	   </div>
+    </div>
+  </body>
+</html>

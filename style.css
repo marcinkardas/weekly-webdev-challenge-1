@@ -61,6 +61,12 @@ form { background: #f4f4f4;  }
     .header_logo, .footer_logo { width: 100%; }
 }
 
+@media all and (min-width: 501px) and (max-width: 900px) { 
+    .wrapper { justify-content: center; }
+    .subscribe_btn, .no_subscribe_btn, .recover_btn { width: 110px; }
+    .sign_in { width: 110px; font-size: 16px; height: 38px; padding: 0px; }
+}
+
 
 
 /* FONT */

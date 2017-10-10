@@ -14,7 +14,7 @@ p { color: #fff; font-size: 32px; text-shadow: 1px 1px #000; text-align: center 
 /* FORM CSS STYLING */
 
 input { padding-left: 20px; width: 100%; display: flex; background: transparent; border: none; font-family: TitilliumText22L-Light;
-color: #afafaf; }
+color: #afafaf; font-size: 16px; }
 input::placeholder { font-size: 16px; color: #afafaf; font-family: TitilliumText22L-Light; }
 select { background: transparent; border: none; padding-left: 20px; width: 100%; font-size: 16px; color: #afafaf; }
 textarea { height: 210px; width: 100%; background: transparent; border: none; font-family: TitilliumText22L-Light; color: #afafaf; padding: 10px; }
